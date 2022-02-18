@@ -1,6 +1,12 @@
+
+
+
+
 import json
 from chess import parse_square, PIECE_NAMES, \
     RANK_NAMES, FILE_NAMES, Move, Board
+
+# comment added as
 
 
 class GameOfChess:
