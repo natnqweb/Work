@@ -23,7 +23,7 @@ ten sposób walidacji możliwych ruchów nie jest dobry z paru powodów:
 
 ## Tą metodę zastąpiono następującą
 
-może być GET albo POST, dane nie są tajne
+może być GET albo POST
 
         [GET/POST] `/api/v1/check/{current-field}`
 
