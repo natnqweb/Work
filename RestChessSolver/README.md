@@ -8,11 +8,7 @@
 * Flask 1.0+
 * Dozwolone jest używanie zewnętrznych bibliotek - chess
 
-## Aby ukninąć przysłowiowego ponownego wynajdywania koła, wykorzystano bibliotekę chess
-
-kolejnym powodem dla którego nie wynajdywałem gry w szachy od nowa było to, że **nie potrafię grać w szachy**
-
-## Uwagi!
+## Uwagi
 
     [GET] `/api/v1/{chess-figure}/{current-field}` (wyświetla listę możliwych ruchów)
 ten sposób walidacji możliwych ruchów nie jest dobry z paru powodów:
@@ -31,7 +27,6 @@ metoda poruszania się pionkami
 
         [GET/POST] `/api/v1/{current-field}/{destination-field}`
 
-
 ## TUTORIAL
 
 ### WINDOWS
@@ -43,10 +38,12 @@ w scieżce gdzie znajduję się app.py wykonaj następujące polecenie
 jeżeli posiadasz wszystkie moduły możesz uruchomić aplikację
 
     python app.py [port]
-#####przykład:
+
+##### przykład
+
     python app.py 8080
 **lub**
-    
+
     python app.py
 
 kiedy nie podamy portu domyślnie będzie to **5000**
@@ -104,7 +101,7 @@ wyświetla się komunikat o nie dozwolnych ruchu i response 409
 ## 5. ruch drugiego gracza pionem z f7
 
 **sprawdźmy jakie mamy opcje**
-    
+
     localhost:8080/api/v1/check/f7
 
 ![checkf7](./img/odpf7.JPG)]
@@ -125,6 +122,6 @@ localhost:8080/api/v1/f7/f6
 
 ![console404](./img/console404.JPG)]
 
-
 ## kontakt
+
 **natanlisowski@gmail.com**
