@@ -1,1 +1,7 @@
-{"move": "valid", "figure": "pawn", "error": "none", "currentField": "f7", "destField": "f6"}
+{
+    "move": "valid",
+    "figure": "pawn",
+    "error": "",
+    "currentField": "f7",
+    "destField": "f6"
+}
