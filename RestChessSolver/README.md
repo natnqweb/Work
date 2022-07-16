@@ -53,7 +53,7 @@ kiedy nie podamy portu domyślnie będzie to **5000**
 
 ## obowiązująca szachownica
 
-![szachownica](./img/szachownica.JPG)]
+![szachownica](./img/szachownica.jpg)]
 
 ## ułożenie pionków
 
